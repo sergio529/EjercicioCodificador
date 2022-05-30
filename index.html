@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="with-device-with">
+        <title>Máquina de encriptado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+    
+    </head>
+
+    <body>
+        
+          
+        
+        <main>
+            <div class="logo-superior">
+                <h1> <img src="imagenes/Vector.png" alt="Logo encriptador"></h1>
+            </div>
+            <div class ="campo-decodificación">
+                <textarea id="campo-para-codificar" name="campo-para-codificar" type="text" placeholder="ingrese el texto aquí..." class="campo-para-codificar"></textarea>
+
+                <p id="texto-descodificado" class="invisible"> este es un parrafo el cual ayuda ver cómo se comporta mi codigo en un cuadro de texto </p>
+
+                <h2 id="no-info" class="campo-decpdificado">
+                   
+                    
+                    <img class="imagen-codificar" src="imagenes/Muñeco.png" alt="no se ha encontrado imagen">
+                    <p class="mensaje1-decodificador">Ningún mensaje fue encontrado </p>
+                    <p class="mensaje2-decodificador">Ingresa el texto que desees encriptar o desencriptar. </p>
+                    
+                </h2>
+
+                
+
+
+
+            </div>
+
+            <div class="campo-botones">
+                <h2 class="alerta-letras"><img src="imagenes/Vectoralert icon.png" alt="ícono de alerta" class="imagen-alerta">Solo letras minúsculas y sin acentos</h2>
+
+                <button id="boton-codificar" class="boton-codificar">Encriptar</button> 
+                <button id="boton-descodificar" class="boton-descodificar">Desencriptar</button>
+                <button id="boton-copiar" class="invisible">copiar</button>
+                
+            </div>
+            
+            
+                 
+
+            
+            
+
+        </main>
+        <footer>
+            <p class="pie-pagina">creado por Sergio S.</p>
+        </footer>
+
+        <script src="js/codifcar-codigo.js"></script>
+        <script src="js/descodificar-codigo.js"></script>
+        <script src="js/copiar.js"></script>
+    </body>
