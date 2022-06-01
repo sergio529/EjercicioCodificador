@@ -246,7 +246,7 @@ flex-grow: 0;
    
 }
 
-@media screen and (max-width:480px){
+@media (min-width:50px) and (max-width:480px){
     .logo-superior{
         width: 100px;
        
