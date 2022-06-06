@@ -253,14 +253,14 @@ flex-grow: 0;
        
         
         }
-    .campo-para-codificar, .campo-botones, .campo-decpdificado, #texto-descodificado{
+    .campo-para-codificar, .campo-botones, .campo-decpdificado{
         left: 30px;
 
     }
-    #boton-codificar, #boton-descodificar,.boton-copiar{
+    #boton-codificar, #boton-descodificar{
         width: 140%;
     }
-    .campo-decpdificado,#texto-descodificado{
+    .campo-decpdificado{
         top: 75%;
         width: 75%;
         height: 30%;
@@ -268,14 +268,5 @@ flex-grow: 0;
     .imagen-codificar{
         display: none;
     }
-    .boton-copiar{
-        position: absolute;
-        left: 0px;
-        top:340%
-
-    }
-  .logo, .pie-pagina{
-      display: none;
-  }
- 
+  
 }
